@@ -85,7 +85,14 @@ header{
 .plane-img:hover{
     filter: grayscale(100%);
 }
-/* non trovo l'es7 :( */
+/*es7*/
+.plane-img-7{
+    width: 500px;
+    transition: 2s;
+}
+.plane-img-7:hover{
+    filter: grayscale(100%);
+}
 /* es8 */
 
 /* keyframes */
