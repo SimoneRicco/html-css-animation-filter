@@ -1,0 +1,38 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* general settings */
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: chartreuse;
+}
+/* header */
+header{
+    text-align: center;
+    padding: 2rem 0 5rem 0;
+}
+/* main */
+.es-contaier{
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid gray;
+    margin: .5rem 0 1rem 0;
+    box-shadow: 0px 1px 5px gray inset;
+}
+/* es1  */
+.square-es1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+.square-es1:hover{
+    transition: 2s;
+    background-color: red;
+}
+/* es2 */
+
+/* keyframes */
