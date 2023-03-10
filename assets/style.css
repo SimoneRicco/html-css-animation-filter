@@ -40,9 +40,9 @@ header{
     width: 100px;
     height: 100px;
     background-color: red;
+    transition: 2s;
 }
 .square-es2:active{
-    transition: 2s;
     width: 100%;
 }
 /* es3 */
@@ -85,4 +85,7 @@ header{
 .plane-img:hover{
     filter: grayscale(100%);
 }
+/* non trovo l'es7 :( */
+/* es8 */
+
 /* keyframes */
