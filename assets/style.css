@@ -94,5 +94,12 @@ header{
     filter: grayscale(100%);
 }
 /* es8 */
-
+.img-8{
+    width: 500px;
+    transition: 2s;
+}
+.img-8:hover{
+    border-radius: 20px;
+    filter: grayscale(100%);
+}
 /* keyframes */
