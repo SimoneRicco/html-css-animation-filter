@@ -9,6 +9,20 @@
     width: 70%;
     margin: auto;
 }
+.top, .bot{
+    background-color: lightgray;
+    width: 60px;
+    height: 20px;
+    position: absolute;
+}
+.top{
+    top: -10px;
+    left: 10%;
+}
+.bot{
+    bottom: -10px;
+    right: 10%;
+}
 /* header */
 header{
     text-align: center;
@@ -131,9 +145,47 @@ header{
     animation-timing-function: linear;
     animation-duration: 1s;
 }
+/* es12 */
+.rotation12{
+    font-size: 2rem;
+    text-align: center;
+    width: 200px;
+    padding: 1rem;
+    text-transform: uppercase;
+    border: 2px solid black;
+    position: relative;
+}
+.rotation12:hover .top{
+    animation: moveTopWhite 2s linear;
+}
+.rotation12:hover .bot{
+    animation: moveBottomWhite 2s linear;
+}
 /* keyframes */
 @keyframes rolling{
     0%{
         transform: rotate(1turn);
+    }
+}
+@keyframes moveTopWhite {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+@keyframes moveBottomWhite {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
     }
 }
