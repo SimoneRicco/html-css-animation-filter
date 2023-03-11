@@ -161,6 +161,22 @@ header{
 .rotation12:hover .bot{
     animation: moveBottomWhite 2s linear;
 }
+/* es13 */
+.rotation13{
+    font-size: 2rem;
+    text-align: center;
+    width: 200px;
+    padding: 1rem;
+    text-transform: uppercase;
+    border: 2px solid black;
+    position: relative;
+}
+.rotation13:hover .top{
+    animation: moveTopWhiteC 2s linear;
+}
+.rotation13:hover .bot{
+    animation: moveBottomWhiteC 2s linear;
+}
 /* keyframes */
 @keyframes rolling{
     0%{
@@ -186,6 +202,58 @@ header{
         right: calc(100% - 60px);
     }
     100% {
+        right: 20%;
+    }
+}
+@keyframes moveTopWhiteC {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+@keyframes moveBottomWhiteC {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        bottom: -10px;
         right: 20%;
     }
 }
