@@ -114,10 +114,20 @@ header{
     transform: scale(1);
 }
 /* es10 */
-.icon i{
+.icon10 i{
     font-size: 4rem;
     animation-name: rolling;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+}
+/* es11 */
+.icon11 i{
+    font-size: 4rem;
+}
+.icon11 i:hover{
+    animation-name: rolling;
+    animation-iteration-count: 1rurn;
     animation-timing-function: linear;
     animation-duration: 1s;
 }
